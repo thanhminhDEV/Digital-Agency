@@ -10,6 +10,10 @@
         margin-top: 0;
         max-width: 380px;
     }
+    .container .nav_container .nav_container_heading {
+        font-size: 0.875rem;
+        color: #272d38;
+    }
     .nav_container .nav_container_item {
         display: none;
     }
