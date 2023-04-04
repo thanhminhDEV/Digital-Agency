@@ -1,6 +1,7 @@
 @media all and (max-width: 600px) {
     .container {
-        background-color: red;
+        background: #fdfcfc;
+        border-radius: 10px;
         width: 100vw;
     }
 
@@ -42,9 +43,12 @@
         display: flex;
         justify-content: center;
     }
+    .hero_container .hero_container_img {
+        margin: 48px auto 0;
+    }
     .hero_container .hero_container_img .image {
         padding: 0 36px;
-        margin-top: 48px;
+
         width: 358px;
         height: 358px;
     }
