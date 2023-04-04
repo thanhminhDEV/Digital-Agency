@@ -30,6 +30,7 @@
         margin: 0 auto;
     }
     .hero_container .hero_container_info .desc {
+        /* margin-top: 24px; */
         font-size: 1rem;
         line-height: 1.72;
         text-align: center;
