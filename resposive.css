@@ -1,0 +1,49 @@
+@media all and (max-width: 600px) {
+    .container {
+        min-width: 428px;
+        background: #fdfcfc;
+        border-radius: 10px;
+    }
+
+    .nav_container {
+        width: 380px;
+    }
+    .nav_container .nav_container_heading {
+        width: 380px;
+        font-size: 0.875rem;
+        line-height: 0.82;
+        /* identical to box height */
+    }
+    .nav_container .nav_container_list .nav_container_item {
+        display: none;
+    }
+    .nav_container .image {
+        display: block;
+    }
+    /* hero */
+    .hero_container {
+        flex-direction: column;
+    }
+    .hero_container .hero_container_info .heading {
+        font-size: 40px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .hero_container .hero_container_info .desc {
+        font-size: 16px;
+        line-height: 1.72;
+        text-align: center;
+        /* or 172% */
+    }
+    .hero_container .hero_container_info .btn {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 24px;
+    }
+    .hero_container .hero_container_img .image {
+        display: flex;
+        justify-content: center;
+    }
+}
