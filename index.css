@@ -9,9 +9,9 @@
 }
 
 .container {
-    max-width: 1440px;
+    width: 100vw;
     margin: 0 auto;
-    background: #fdfcfc;
+    background: #fcfcfc;
     border-radius: 10px;
 }
 
@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 46px;
+    padding-top: 46px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -95,4 +95,28 @@
 
 .hero_container .hero_container_img .image {
     object-fit: cover;
+}
+/* companies */
+.companies_container {
+    margin-top: 157px;
+}
+
+.companies_container .desc {
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1;
+    color: #667085;
+}
+.companies_container .companies_container_bot {
+    background-color: #f6f6f6;
+    margin-top: 16px;
+    padding: 22px 24px;
+    max-width: 915px;
+    display: flex;
+    border-radius: 6px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
 }

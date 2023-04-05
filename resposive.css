@@ -53,8 +53,24 @@
     }
     .hero_container .hero_container_img .image {
         padding: 0 36px;
-
         width: 358px;
         height: 358px;
+    }
+    /* companies */
+    .companies_container {
+        margin-top: 120px;
+    }
+    .companies_container .desc {
+        font-size: 0.875rem;
+    }
+    .companies_container .companies_container_bot {
+        padding: 32px 16px;
+        width: 380px;
+    }
+    .companies_container .companies_container_bot .image {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70px;
+        height: 24px;
     }
 }
