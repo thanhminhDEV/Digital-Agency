@@ -2,7 +2,7 @@
     .container {
         background: #fdfcfc;
         border-radius: 10px;
-        width: 100vw;
+        width: 100%;
     }
 
     .nav_container {
