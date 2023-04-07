@@ -6,7 +6,8 @@
     }
 
     .nav_container {
-        padding-top: 48px;
+        padding: 48px 24px 0;
+
         margin-top: 0;
         max-width: 380px;
     }
@@ -62,6 +63,7 @@
     }
     .companies_container .desc {
         font-size: 0.875rem;
+        padding: 25px 0;
     }
     .companies_container .companies_container_bot {
         padding: 32px 16px;
@@ -72,5 +74,39 @@
         margin-right: auto;
         width: 70px;
         height: 24px;
+    }
+    /* branding */
+    .branding_container {
+        margin-top: 0;
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    .branding_container .branding_container_left .image {
+        width: 375px;
+        height: 384px;
+        margin-right: 0;
+    }
+
+    .branding_container_right .heading_lv2 {
+        margin-top: 88px;
+        font-size: 2rem;
+        text-align: center;
+        text-transform: capitalize;
+        color: #272d38;
+        padding: 0 25px;
+    }
+    .branding_container_right .desc {
+        text-align: center;
+        padding: 0px 23px;
+        font-size: 0.875rem;
+        line-height: 196%;
+    }
+    .branding_container_right .arrow.down {
+        display: block;
+        margin: 32px auto 25px;
+        width: 21.54px;
+    }
+    .branding_container_right .arrow {
+        display: none;
     }
 }
