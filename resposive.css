@@ -7,7 +7,6 @@
 
     .nav_container {
         padding: 48px 24px 0;
-
         margin-top: 0;
         max-width: 380px;
     }
@@ -82,7 +81,7 @@
         width: 90%;
     }
     .branding_container .branding_container_left .image {
-        width: 375px;
+        width: 100%;
         height: 384px;
         margin-right: 0;
     }
@@ -109,4 +108,41 @@
     .branding_container_right .arrow {
         display: none;
     }
+    /* custome */
+    .custome_container {
+        width: 380px;
+        flex-direction: column;
+        margin-top: 120px;
+    }
+    .custome_container .custome_container_info .heading_lv2 {
+        max-width: 380px;
+        max-width: 380px;
+        text-align: center;
+        font-size: 2rem;
+        line-height: 100%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #272d38;
+    }
+    .custome_container .custome_container_info .desc {
+        margin-top: 24px;
+        font-size: 0.875rem;
+        line-height: 196%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #272d38;
+    }
+    .custome_container .custome_container_info .image {
+        display: none;
+    }
+    .custome_container .custome_container_info .image.arrow {
+        display: block;
+        margin:32px auto 24px;
+    } 
+    .custome_container .custome_container_img .image {
+        width: 100%;
+        height: 380px;
+        object-fit: cover;
+    }
+
 }

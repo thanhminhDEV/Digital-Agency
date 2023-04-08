@@ -164,3 +164,35 @@
 .branding_container_right .arrow.down {
     display: none;
 }
+/* custome */
+.custome_container {
+    margin-top: 136px;
+    display: flex;
+    max-width: 1065px;
+    margin: 136px auto 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.custome_container .custome_container_info .heading_lv2 {
+    max-width: 435px;
+}
+.custome_container .custome_container_info .desc {
+    margin-top: 26px;
+    max-width: 392px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 172%;
+    text-transform: capitalize;
+    color: #272d38;
+}
+.custome_container .custome_container_info .image {
+    margin-top: 46px;
+}
+.custome_container .custome_container_info .image.arrow {
+    display: none;
+}
+.custome_container .custome_container_img .image {
+    max-width: 450px;
+    max-height: 450px;
+    object-fit: cover;
+}
